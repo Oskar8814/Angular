@@ -1,2 +1,2 @@
-# DWEC
-Desarrollo Web Entorno Cliente
+# Angular
+Desarrollo Web Entorno Cliente Angular
