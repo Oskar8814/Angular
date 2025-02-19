@@ -7,5 +7,14 @@ import { Component } from '@angular/core';
   styleUrl: './dado.component.css'
 })
 export class DadoComponent {
+  valor:number = 1;
+
+  constructor(){
+    this.valor=this.generaAleatorio();
+  }
+
+  generaAleatorio(){
+    return Math.floor(Math.random()*6)+1;
+  }
 
 }
