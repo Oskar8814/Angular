@@ -43,3 +43,6 @@ ng new <proyecto> --strict
 Crear un componente
 
 ng generate component <nombre del componente>
+
+Dependencias de Bootstrap
+npm install bootstrap jquery @popperjs/core
