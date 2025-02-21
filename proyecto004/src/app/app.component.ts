@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-
+import { Component, OnInit } from '@angular/core';
+declare var $: any; 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -17,6 +17,9 @@ export class AppComponent {
 
   constructor(){
     this.lanzarDados();
+  }
+  ngOnInit(): void {
+    $('[data-bs-toggle="popover"]').popover();
   }
 
   comprobarResultado(){
